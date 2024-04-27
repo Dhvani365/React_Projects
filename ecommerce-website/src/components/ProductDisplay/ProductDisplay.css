@@ -1,0 +1,131 @@
+/* ProductDisplay.css */
+
+.product-dis {
+    display: flex;
+    justify-content: space-between;
+    margin: 20px;
+    padding: 20px;
+    border: 1px solid #ddd;
+  }
+  
+  .product-left {
+    display: flex;
+    gap: 5px;
+    width: 30%;
+  }
+  
+  .img-list {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .img-list img {
+    height: 130px;
+    width: 100%;
+    margin-bottom: 10px;
+  }
+  
+  .proddisplay-img {
+    width: 30%;
+  }
+  
+  .main-img {
+    margin-top: 50px;
+    margin-left: -200px;
+    width: 100%;
+    border: 1px solid #ddd;
+  }
+  
+  .product-right {
+    display: flex;
+    flex-direction: column;
+    width: 30%;
+  }
+  
+  .rigth-star {
+    display: flex;
+    align-items: center;
+  }
+  
+  .rigth-star img {
+    width: 20px;
+    height: 20px;
+    margin-right: 5px;
+  }
+
+  .heading {
+    font-size: 10px;
+    margin-bottom: 10px;
+    text-align: left;
+  }
+  
+  .product-right p {
+    font-size: 16px;
+    margin: 0;
+  }
+  
+  .product-right-prices {
+    display: flex;
+    gap: 15px;
+    font-size: 15px;
+    margin-top: 20px;
+  }
+  
+  .prices-old{
+    color: dimgray;
+    text-decoration: line-through;
+  }
+
+  .prices-new{
+    color: darkred;
+    font-weight: 700;
+  }
+
+  .prices-old,
+  .prices-new {
+    font-size: 1.2em;
+    margin-bottom: 10px;
+  }
+  
+  .display-right-size {
+    margin-top: 20px;
+  }
+  
+  .display-right-sizes{
+    display: flex;
+    gap: 20px;  
+  }
+
+  .display-right-sizes div {
+    padding: 5px 7px;
+    background: #f0f0f0;
+    border: 1px solid #ddd;
+    border-radius: 10px;
+    cursor: pointer;
+    width: 100px;
+    font-size: 15px;
+  }
+  
+  .product-right button {
+    display: flex;
+    flex-direction: row;
+    background-color: darkred;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 15px;
+    font-weight: 500;
+    align-self: flex-start;
+    margin-bottom: 30px;
+    margin-top: 50px;
+  }
+  
+  .display-right-category {
+    text-align: left;
+  }
+  
+  .display-right-category span {
+    font-weight: bold;
+  }

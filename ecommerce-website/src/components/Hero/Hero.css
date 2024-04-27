@@ -1,0 +1,103 @@
+/* Container for the entire hero section */
+.heroSection {
+    height: 70vh;
+    background: linear-gradient(180deg, rgb(255, 186, 215), #e1ffea22 60%);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 50px; /* Adjust the padding as needed */
+    width: 90%;
+    margin-left: 20px;
+  }
+  
+  /* Styles for the hero left section */
+  .hero-left {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 20px;
+    padding-left: 180px;
+    line-height: 1.1;
+    align-items:flex-start;
+  }
+  
+  .hero-left h2 {
+    font-size: 20px;
+    font-weight: 600;
+  }
+  
+  .hero-left p {
+    font-size: 30px;
+    font-weight: 200;
+  }
+
+  .handIcon {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+  }
+  
+  .handIcon img {
+    margin-left: 10px;
+    max-width: 50px; 
+  }
+  
+  .latest {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 15px;
+    height: 35px;
+    width: 250px;
+    border-radius: 75px;
+    background: rgb(223, 0, 56);
+    color: white;    
+    padding: 10px;
+    cursor: pointer;
+  }
+  
+  .latest p {
+    font-size: 20px;
+    font-weight: 400;
+  }
+  
+  .latest img {
+    max-width: 20px; 
+  }
+  
+  /* Styles for the hero right section */
+  .hero-right{
+    flex: 1;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-width: 50vw; 
+  }
+  .hero-right img {
+    width: 40%;
+    border-radius: 10px;
+  }
+  
+  /* Animations */
+  @keyframes fadeIn {
+    from {
+      opacity: 0;
+    }
+    to {
+      opacity: 1;
+    }
+  }
+  
+  @keyframes slideIn {
+    from {
+      transform: translateX(-100%);
+    }
+    to {
+      transform: translateX(0);
+    }
+  }    
+
+  .hero-left{
+    animation: fadeIn 3s ease-in-out, slideIn 1s ease-in-out;
+  }

@@ -1,0 +1,102 @@
+/* adding CSS to the navbar */
+.navbar{
+  display: flex;
+  justify-content: center;
+  padding: 10px;
+  box-shadow: 0 1px 3px -2px black;
+  width: 104%;
+  height: 50%;
+  margin-top: -30px;
+  margin-left: -45px;
+}
+.navLogo{
+  display: flex;
+  gap: 10px;
+  padding-left: 0px;
+}
+.navLogo img{
+  width: 100%;
+  height: 80px;
+  padding-left: 15px;
+}
+.navLogo p{  
+  font-size: 20px;
+  font-weight: 600;
+  padding-top: 20px;
+}
+.navMenu{
+  display: flex;
+  align-items: center;
+  list-style: none;
+  font-size: 15px;
+  gap: 20px;
+  font-weight: bold;
+  padding-left: 200px;
+}
+.navMenu li{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  cursor: pointer;
+}
+.navMenu hr{
+  margin-top: 5px;
+  border: none;
+  width: 80%;
+  height: 3px;
+  border-radius: 5px;
+  background: rgb(190, 54, 95);  
+}
+.navCart{
+  display: flex;
+  align-items: center;
+  gap: 45px;
+  padding-left: 400px;
+  cursor: pointer;
+}
+.navCart button{
+  height: 40px;
+  color: white;
+  background-color: darkred;
+  border-radius: 30px;
+  border: 1px solid;
+  width: 80px;
+  cursor: pointer;
+  font-size: 15px;
+  font-weight: 700;
+  margin-left: -30px;
+}
+
+.navCart button:active{
+  background-color: white;
+}
+.navCart img{
+  height: 30px; 
+  gap: 0px;
+  margin-top: 10px;
+  margin-right: -110px;
+}
+.cart-count{
+  height: 22px;
+  width: 22px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: -33px;
+  margin-left: 20px;
+  border-radius: 11px;
+  font-size: 14px;
+  background-color: darkred;
+  color: white;
+}
+/* Media Query for smaller screens */
+@media (max-width: 768px) {
+  .navMenu {
+    padding-left: 10px;
+  }
+
+  .navCart {
+    padding-left: 10px;
+  }
+}

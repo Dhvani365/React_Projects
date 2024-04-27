@@ -1,0 +1,136 @@
+.login-container {
+    background-color: #fff;
+    border-radius: 8px;
+    background: linear-gradient(180deg, rgb(255, 215, 232), #ffe1f122 60%);
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    width: 350px;
+    text-align: left;
+    margin-left: 35%;
+    margin-top: 10%;
+  }
+
+  .login-container h2 {
+    color: #333;
+    font-weight: 700;
+  }
+
+  .form-group {
+    margin-bottom: 20px;
+  }
+
+  .form-group label {
+    margin-top: 15px;
+    display: block;
+    margin-bottom: 8px;
+    color:dimgray;
+    font-weight: 600;
+  }
+
+  .form-group input {
+    width: 100%;
+    padding: 8px;
+    box-sizing: border-box;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+  }
+
+  .form-group button {
+    background-color: darkred;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 16px;
+    font-weight: 700;
+  }
+
+  .form-group button:hover {
+    background-color: rgb(255, 215, 232);
+    color: black;
+  }
+
+  .register-link {
+    color: darkred;
+    text-decoration: none;
+  }
+
+  .register-link:hover {
+    text-decoration: underline;
+  }
+  .login-container p{
+    font-size: 15px;
+  }
+  .login-container a{
+    color: darkred;
+  }
+  .content{
+    font-size: 15px;
+    gap: 5px;
+  }
+  .content input{
+    margin-right: 10px;
+  }
+  .switch-container {
+    display: flex;
+    align-items: center;
+  }
+
+  .switch-label {
+    margin-right: 10px;
+  }
+
+  .switch {
+    position: relative;
+    display: inline-block;
+    width: 60px;
+    height: 34px;
+  }
+
+  .switch input {
+    opacity: 0;
+    width: 0;
+    height: 0;
+  }
+
+  .slider {
+    position: absolute;
+    cursor: pointer;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: #ccc;
+    border-radius: 34px;
+    transition: .4s;
+  }
+
+  .slider:before {
+    position: absolute;
+    content: "";
+    height: 26px;
+    width: 26px;
+    left: 4px;
+    bottom: 4px;
+    background-color: white;
+    border-radius: 50%;
+    transition: .4s;
+  }
+
+  input:checked + .slider {
+    background-color: #2196F3;
+  }
+
+  input:focus + .slider {
+    box-shadow: 0 0 1px #2196F3;
+  }
+
+  input:checked + .slider:before {
+    transform: translateX(26px);
+  }
+
+  /* Optional: Styling for the label when the switch is on */
+  input:checked + .slider + .switch-label {
+    color: #2196F3;
+  }

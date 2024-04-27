@@ -1,0 +1,69 @@
+.offers{
+    width: 75%;
+    height: 60vh;
+    display: flex;
+    margin: 130px 20px;
+    padding: 0px 140px;
+    margin-bottom: 150px;
+    background: linear-gradient(180deg, rgb(255, 221, 235), #e1ffea22 60%);
+}
+.offers-left{
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items:flex-start;
+}
+.offers-left h1{
+    font-size: 40px;
+    font-weight: 500;
+}
+.offers-left p{
+    color: rgb(161, 1, 41);
+    font-size: 20px;
+    font-weight: 700;
+    margin-top: 20px;
+}
+.offers-left button{
+    height: 50px;
+    background-color: darkred;
+    color: white;
+    border-radius: 30px;
+    border-color: white;
+    width: 180px;
+    cursor: pointer;
+    font-size: 17px;
+    font-weight: 600;
+    margin-top: 20px;
+    transition-duration: 0.4s;
+}
+.offers-left button:hover{
+    color: black;
+    background-color: white;
+  }
+.offers-right{
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.offers-right img{
+    height: 400px;
+}
+
+
+/* animation */
+@keyframes slideIn {
+    from {
+      transform: translateX(-100%);
+    }
+    to {
+      transform: translateX(0);
+    }
+}  
+
+.offers-left{
+    animation: slideInUp 7s ease-in-out;
+}
+

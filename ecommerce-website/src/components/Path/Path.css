@@ -1,0 +1,7 @@
+.path{
+    display: flex;
+    gap: 15px;
+    align-self: flex-start;
+    font-size: 15px;
+    margin-top: 20px;
+}
