@@ -1,0 +1,4 @@
+1. create folder
+2. npx create-react-app .
+or
+2. npm create vite@latest

@@ -1,0 +1,64 @@
+.container {
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+    margin-top: 0px;
+}
+
+.cellInput {
+    height: 50px;
+    width: 50px;
+    font-size: 20px;
+    text-align: center;
+    padding: 1px;
+    border: 2px solid black;
+}
+
+table {
+    border-collapse: collapse;
+    border: 3px solid rgb(151, 228, 252);
+    background-color: gainsboro;
+}
+
+td {
+    padding: 0;
+    position: relative;
+}
+
+.bottom-border {
+    border-bottom: 3px solid black;
+}
+
+.right-border {
+    border-right: 3px solid black;
+}
+
+.highlight {
+    background-color: rgba(151, 228, 252, 0.5);
+}
+
+.empty-cell {
+    background-color: rgba(255, 200, 200, 0.5); /* Highlight empty cells */
+}
+
+button {
+    background: rgb(6, 46, 73);
+    height: 70px;
+    width: 23%;
+    border-radius: 20px;
+    color: rgb(117, 196, 248);
+    font-size: large;
+    font-weight: 600;
+    margin: 5px;
+}
+
+.options {
+    margin-top: 20px;
+    width: 150%;
+    margin-left: -120px;
+}
+
+.wrong-cell {
+    background-color: red;
+    color: white;
+}

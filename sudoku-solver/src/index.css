@@ -1,0 +1,13 @@
+body {
+  background-color: #213547;
+  display: flex;
+  margin-top: -50px;
+}
+
+h1 {
+  font-size: 3.2em;
+  line-height: 1.1;
+  color: rgb(117, 196, 248);
+}
+
+
